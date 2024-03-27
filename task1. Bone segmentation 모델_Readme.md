@@ -12,3 +12,12 @@
 |Pydicom|2.4.2|
 |SimpleITK|2.2.1|
 |Tqdm|4.64.1|
+
+### 3. Model description
+#### 3.1. 모델
++ U-Net
+
+
+#### 3.2. 입력데이터
++ 수집된 C-Spine CT 데이터 (.dcm)
++ C-spine 영역이 polygon 좌표로 라벨링된 데이터 (.json)
